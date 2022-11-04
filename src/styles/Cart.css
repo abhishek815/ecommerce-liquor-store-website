@@ -1,0 +1,149 @@
+.cart__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.cart__left {
+    display: flex;
+    width: 60%;
+}
+
+.cart__right {
+    margin-top: 10px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cart__item img {
+    height: 100px;
+}
+
+.cart__items {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cart__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(242, 242, 242);
+}
+
+.cart__item--body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cart__item--description {
+    width: 100px;
+}
+
+.cart__item--description p, .cart__item--description h3, .cart__item--description button {
+    margin-bottom: 5px;
+}
+
+.cart__item--description h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+.cart__item--description p {
+    font-size: 10px;
+    padding-top: 5px;
+    font-weight: 300;
+}
+.cart__item--description button {
+    background-color: transparent;
+    border: none;
+    color: #ff4040;
+    font-weight: 300;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.cart__summary--top {
+    width: 100%;
+}
+
+.cart__summary--top h2 {
+    padding-bottom: 10px;
+}
+.cart__item--row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.cart__summary--bottom {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+.cart__total {
+    width: 70px;
+}
+
+.checkout__btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.cart__quantity {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.cart__input {
+    padding: 8px;
+    width: 60px;
+}
+
+
+@media (max-width: 650px) {
+    .cart__wrapper {
+        flex-direction: column;
+    }
+    .cart__left {
+        width: 100%;
+    }
+    .cart__right {
+        width: 100%;
+        margin-left: unset;
+    }
+}
+
+.empty__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.empty__container img {
+    width: 500px;
+}
+
+.padding-10 {
+    padding-bottom: 10px;
+}

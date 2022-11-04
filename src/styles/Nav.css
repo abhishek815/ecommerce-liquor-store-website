@@ -1,0 +1,80 @@
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+}
+
+.nav__container {
+    background-color: white;
+    width: 100%;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .search__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+
+  .search__bar input {
+    width: 100%;
+    margin-right: 10px;
+    border-radius: none;
+    outline: none;
+    padding: 10px 0;
+    padding-right: 75px;
+    padding-left: 15px;
+    
+    font-size: 10px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+  }
+
+.bottom__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0px 30px;
+    background-color: rgb(242, 242, 242);
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.nav__link {
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+}
+.address {
+    margin-left: 5px;
+    font-size: 8px;
+    color: black;
+}
+
+.store__location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store__location a {
+    font-size: 10px;
+    font-weight: 400;
+}
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
